@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "/WEB-INF/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="memberMapper">
+    <select id="memberMapper_selectMemberList" parameterType="chty.first.member.vo.MemberVo" resultType="chty.first.member.vo.MemberVo">
+        SELECT
+            member_id,
+            member_nm
+        FROM MEMBER
+    </select>
+</mapper>
