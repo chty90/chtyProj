@@ -1,16 +1,16 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: chty9
-  Date: 2020-03-0009
-  Time: 오후 1:34
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+
 <html>
 <head>
     <title>Title</title>
 </head>
+
 <body>
-    ${list[0]}
+    <%--<c:forEach var="memberVo" items="${list}">
+        <p><c:out value="${memberVo.memberId}" /> <c:out value="${memberVo.memberNm}" /></p>
+    </c:forEach>--%>
+
 </body>
 </html>
